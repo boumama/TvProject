@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<television>
+   <channel id="1">
+      <name>LaUne</name>
+      <address>
+         <city>Brussels</city>
+         <state>Belguim</state>
+         <zipcode>1000</zipcode>
+         <country>Belguim</country>
+      </address>
+   </channel>
+   <program>
+      <title>Journal 19 h</title>
+      <category>News</category>
+      <date>2021-03-02</date>
+      <time format="24">20:00</time>
+      <period>1.0</period>
+   </program>
+   <channel id="2">
+      <name>LaDeux</name>
+      <address>
+         <city>Brussels</city>
+         <state>Belguim</state>
+         <zipcode>1000</zipcode>
+         <country>Belguim</country>
+      </address>
+   </channel>
+   <program>
+      <title>Replay Journal 13 </title>
+      <category>News</category>
+      <date>2021-03-02</date>
+      <time format="24">20:00</time>
+      <period>1.0</period>
+   </program>
+   <channel id="3">
+      <name>ABC</name>
+      <address>
+         <city>New York</city>
+         <state>New York</state>
+         <zipcode>10023</zipcode>
+         <country>USA</country>
+      </address>
+   </channel>
+   <program>
+      <film language="en">
+         <title>Designated survivor</title>
+         <category> Political Thriller</category>
+         <actors>
+            <actor>Kiefer Sutherland</actor>
+            <actor>Adan Canto</actor>
+            <actor>Italia Ricci</actor>
+            <actor>LaMonica Garrett</actor>
+            <actor>Kal Penn</actor>
+            <actor>Maggie Q</actor>
+            <actor>Natascha McElhone</actor>
+         </actors>
+
+      </film>
+      <date>2021-03-02</date>
+      <time format="24">20:00</time>
+      <period>1.0</period>
+   </program>
+   <channel id="4">
+      <name>TF1</name>
+      <address>
+         <city>Paris</city>
+         <state>France</state>
+         <zipcode>71000</zipcode>
+         <country>France</country>
+      </address>
+   </channel>
+   <program>
+      <title>Excès de vitesse</title>
+      <category>Enquetes</category>
+      <date>2021-03-02</date>
+      <time format="24">21:00</time>
+      <period>1</period>
+   </program>
+   <channel id="5">
+      <name>France 5</name>
+      <address>
+         <city>Paris</city>
+         <state>France</state>
+         <zipcode>75003</zipcode>
+         <country>France</country>
+      </address>
+   </channel>
+   <program>
+      <title>Echappées belles</title>
+      <category>documentaires</category>
+      <date>2021-03-06</date>
+      <time format="24">20:55</time>
+      <period>1.4</period>
+   </program>
+   <channel id="6">
+      <name>TMC</name>
+      <address>
+         <city>Paris</city>
+         <state>France</state>
+         <zipcode>75006</zipcode>
+         <country>France</country>
+      </address>
+   </channel>
+   <program>
+      <title>Quotidien</title>
+      <category>Emission</category>
+      <date>2021-03-01</date>
+      <time format="24">19:30</time>
+      <period>2</period>
+   </program>
+   <channel id="8">
+      <name>TFX</name>
+      <address>
+         <city>Paris</city>
+         <state>France</state>
+         <zipcode>75007</zipcode>
+         <country>France</country>
+      </address>
+   </channel>
+   <program>
+      <title>Affaire Dutroux</title>
+      <category>Chroniques Criminelles</category>
+      <date>2021-02-22</date>
+      <time format="24">16:10</time>
+      <period>1</period>
+   </program>
+   <channel id="8">
+      <name>LCI</name>
+      <address>
+         <city>Paris</city>
+         <state>France</state>
+         <zipcode>75008</zipcode>
+         <country>Belguim</country>
+      </address>
+   </channel>
+   <program>
+      <title>LCI GD Format Harry et Meghan</title>
+      <category>Documentaire</category>
+      <date>2021-02-</date>
+      <time format="24">20:00</time>
+      <period>1.0</period>
+   </program>
+   <channel id="9">
+      <name>RTL TVI</name>
+      <address>
+         <city>Bruxelles</city>
+         <state>Bruxelles</state>
+         <zipcode>1030</zipcode>
+         <country>Belguim</country>
+      </address>
+   </channel>
+   <program>
+      <title>Formidables</title>
+      <category>Humour</category>
+      <date>2021-03-02</date>
+      <time format="24">14:00</time>
+      <period>1</period>
+   </program>
+   <channel id="10">
+      <name>LN24</name>
+      <address>
+         <city>Brussels</city>
+         <state>Belguim</state>
+         <zipcode>1140</zipcode>
+         <country>Belguim</country>
+      </address>
+   </channel>
+   <program>
+      <title>LA MATINALE</title>
+      <category>Politique</category>
+      <date>2021-03-01</date>
+      <time format="24">18:00</time>
+      <period>1.0</period>
+   </program>
+</television>
