@@ -1,57 +1,74 @@
 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:element name="television">
+  <xs:element name="televisions">
     <xs:complexType>
-      <xs:choice maxOccurs="unbounded" minOccurs="0">
-        <xs:element name="channel">
+      <xs:sequence>
+        <xs:element name="channel" maxOccurs="unbounded" minOccurs="0">
           <xs:complexType>
             <xs:sequence>
               <xs:element type="xs:string" name="name"/>
+              <xs:element type="xs:string" name="url" minOccurs="0"/>
               <xs:element name="address">
                 <xs:complexType>
                   <xs:sequence>
                     <xs:element type="xs:string" name="city"/>
                     <xs:element type="xs:string" name="state"/>
-                    <xs:element type="xs:short" name="zipcode"/>
+                    <xs:element type="xs:int" name="zipcode"/>
                     <xs:element type="xs:string" name="country"/>
                   </xs:sequence>
                 </xs:complexType>
               </xs:element>
-            </xs:sequence>
-            <xs:attribute type="xs:byte" name="id"/>
-          </xs:complexType>
-        </xs:element>
-        <xs:element name="program">
-          <xs:complexType>
-            <xs:sequence>
               <xs:element type="xs:string" name="title" minOccurs="0"/>
-              <xs:element type="xs:string" name="category" minOccurs="0"/>
-              <xs:element type="xs:date" name="date" minOccurs="0"/>
-              <xs:element name="time" minOccurs="0">
+              <xs:element name="subtitle" minOccurs="0">
                 <xs:complexType>
                   <xs:simpleContent>
                     <xs:extension base="xs:string">
-                      <xs:attribute type="xs:byte" name="format"/>
+                      <xs:attribute type="xs:string" name="lang" use="optional"/>
                     </xs:extension>
                   </xs:simpleContent>
                 </xs:complexType>
               </xs:element>
-              <xs:element type="xs:float" name="period" minOccurs="0"/>
-              <xs:element type="xs:string" name="name" minOccurs="0"/>
-              <xs:element name="address" minOccurs="0">
+              <xs:element type="xs:string" name="category" minOccurs="0"/>
+              <xs:element name="film" minOccurs="0">
                 <xs:complexType>
                   <xs:sequence>
-                    <xs:element type="xs:string" name="city"/>
-                    <xs:element type="xs:string" name="state"/>
-                    <xs:element type="xs:short" name="zipcode"/>
-                    <xs:element type="xs:string" name="country"/>
+                    <xs:element type="xs:string" name="title"/>
+                    <xs:element name="subtitle">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="lang"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="category"/>
+                    <xs:element name="actors">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="actor" maxOccurs="unbounded" minOccurs="0"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
                   </xs:sequence>
+                  <xs:attribute type="xs:string" name="language"/>
                 </xs:complexType>
               </xs:element>
+              <xs:element type="xs:string" name="date"/>
+              <xs:element name="time">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute type="xs:byte" name="format" use="optional"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:float" name="period"/>
             </xs:sequence>
             <xs:attribute type="xs:byte" name="id" use="optional"/>
           </xs:complexType>
         </xs:element>
-      </xs:choice>
+      </xs:sequence>
     </xs:complexType>
   </xs:element>
 </xs:schema>

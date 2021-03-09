@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<television>
+<televisions>
    <channel id="1">
       <name>LaUne</name>
+      <url>https://www.rtbf.be/tv/laune</url>
       <address>
          <city>Brussels</city>
          <state>Belguim</state>
          <zipcode>1000</zipcode>
          <country>Belguim</country>
       </address>
-   </channel>
-   <program>
       <title>Journal 19 h</title>
+      <subtitle lang="fr">Francais</subtitle>
       <category>News</category>
       <date>2021-03-02</date>
       <time format="24">20:00</time>
       <period>1.0</period>
-   </program>
+   </channel>
    <channel id="2">
       <name>LaDeux</name>
       <address>
@@ -24,27 +24,26 @@
          <zipcode>1000</zipcode>
          <country>Belguim</country>
       </address>
-   </channel>
-   <program>
-      <title>Replay Journal 13 </title>
+      <title>Replay Journal 13</title>
+      <subtitle lang="fr">Francais</subtitle>
       <category>News</category>
       <date>2021-03-02</date>
       <time format="24">20:00</time>
       <period>1.0</period>
-   </program>
+   </channel>
    <channel id="3">
       <name>ABC</name>
+      <url>https://abc.com</url>
       <address>
          <city>New York</city>
          <state>New York</state>
          <zipcode>10023</zipcode>
          <country>USA</country>
       </address>
-   </channel>
-   <program>
       <film language="en">
          <title>Designated survivor</title>
-         <category> Political Thriller</category>
+         <subtitle lang="fr">Francais</subtitle>
+         <category>Political Thriller</category>
          <actors>
             <actor>Kiefer Sutherland</actor>
             <actor>Adan Canto</actor>
@@ -54,122 +53,121 @@
             <actor>Maggie Q</actor>
             <actor>Natascha McElhone</actor>
          </actors>
-
       </film>
       <date>2021-03-02</date>
       <time format="24">20:00</time>
       <period>1.0</period>
-   </program>
+   </channel>
    <channel id="4">
       <name>TF1</name>
+      <url>https://www.tf1.fr</url>
       <address>
          <city>Paris</city>
          <state>France</state>
          <zipcode>71000</zipcode>
          <country>France</country>
       </address>
-   </channel>
-   <program>
       <title>Excès de vitesse</title>
+      <subtitle lang="fr">Francais</subtitle>
       <category>Enquetes</category>
       <date>2021-03-02</date>
       <time format="24">21:00</time>
       <period>1</period>
-   </program>
+   </channel>
    <channel id="5">
       <name>France 5</name>
+      <url>https://www.france.tv/france-5/direct.html</url>
       <address>
          <city>Paris</city>
          <state>France</state>
          <zipcode>75003</zipcode>
          <country>France</country>
       </address>
-   </channel>
-   <program>
       <title>Echappées belles</title>
+      <subtitle lang="fr">Francais</subtitle>
       <category>documentaires</category>
       <date>2021-03-06</date>
       <time format="24">20:55</time>
       <period>1.4</period>
-   </program>
+   </channel>
    <channel id="6">
       <name>TMC</name>
+      <url>https://www.tf1.fr/tmc</url>
       <address>
          <city>Paris</city>
          <state>France</state>
          <zipcode>75006</zipcode>
          <country>France</country>
       </address>
-   </channel>
-   <program>
       <title>Quotidien</title>
+      <subtitle lang="fr">Francais</subtitle>
       <category>Emission</category>
       <date>2021-03-01</date>
       <time format="24">19:30</time>
       <period>2</period>
-   </program>
+   </channel>
    <channel id="8">
       <name>TFX</name>
+      <url>https://www.tf1.fr/tfx</url>
       <address>
          <city>Paris</city>
          <state>France</state>
          <zipcode>75007</zipcode>
          <country>France</country>
       </address>
-   </channel>
-   <program>
       <title>Affaire Dutroux</title>
+      <subtitle lang="fr">Francais</subtitle>
       <category>Chroniques Criminelles</category>
       <date>2021-02-22</date>
       <time format="24">16:10</time>
       <period>1</period>
-   </program>
+   </channel>
    <channel id="8">
       <name>LCI</name>
+      <url>https://www.lci.fr</url>
       <address>
          <city>Paris</city>
          <state>France</state>
          <zipcode>75008</zipcode>
          <country>Belguim</country>
       </address>
-   </channel>
-   <program>
       <title>LCI GD Format Harry et Meghan</title>
+      <subtitle lang="fr">Francais</subtitle>
       <category>Documentaire</category>
       <date>2021-02-</date>
       <time format="24">20:00</time>
       <period>1.0</period>
-   </program>
+   </channel>
    <channel id="9">
       <name>RTL TVI</name>
+      <url>https://www.rtlplay.be/tvi</url>
       <address>
          <city>Bruxelles</city>
          <state>Bruxelles</state>
          <zipcode>1030</zipcode>
          <country>Belguim</country>
       </address>
-   </channel>
-   <program>
       <title>Formidables</title>
+      <subtitle lang="fr">Francais</subtitle>
       <category>Humour</category>
       <date>2021-03-02</date>
       <time format="24">14:00</time>
       <period>1</period>
-   </program>
+   </channel>
    <channel id="10">
       <name>LN24</name>
+      <url>https://www.ln24.be</url>
       <address>
          <city>Brussels</city>
          <state>Belguim</state>
          <zipcode>1140</zipcode>
          <country>Belguim</country>
       </address>
-   </channel>
-   <program>
       <title>LA MATINALE</title>
+      <subtitle lang="fr">Francais</subtitle>
       <category>Politique</category>
       <date>2021-03-01</date>
       <time format="24">18:00</time>
       <period>1.0</period>
-   </program>
-</television>
+   </channel>
+</televisions>

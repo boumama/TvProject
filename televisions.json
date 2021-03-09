@@ -1,218 +1,243 @@
-{
-   "channel": [
-      {
-         "id": "1",
-         "name": "LaUne",
-         "address": {
-            "city": "Brussels",
-            "state": "Belguim",
-            "zipcode": "1000",
-            "country": "Belguim"
-         }
+[
+   {
+      "id": "1",
+      "name": "LaUne",
+      "url": "https://www.rtbf.be/tv/laune",
+      "address": {
+         "city": "Brussels",
+         "state": "Belguim",
+         "zipcode": "1000",
+         "country": "Belguim"
       },
-      {
-         "id": "2",
-         "name": "LaDeux",
-         "address": {
-            "city": "Brussels",
-            "state": "Belguim",
-            "zipcode": "1000",
-            "country": "Belguim"
-         }
+      "title": "Journal 19 h",
+      "subtitle": {
+         "lang": "fr",
+         "text": "Francais"
       },
-      {
-         "id": "3",
-         "name": "ABC",
-         "address": {
-            "city": "New York",
-            "state": "New York",
-            "zipcode": "10023",
-            "country": "USA"
-         }
+      "category": "News",
+      "date": "2021-03-02",
+      "time": {
+         "format": "24",
+         "text": "20:00"
       },
-      {
-         "@id": "4",
-         "name": "TF1",
-         "address": {
-            "city": "Paris",
-            "state": "France",
-            "zipcode": "71000",
-            "country": "France"
-         }
+      "period": "1.0"
+   },
+   {
+      "id": "2",
+      "name": "LaDeux",
+      "address": {
+         "city": "Brussels",
+         "state": "Belguim",
+         "zipcode": "1000",
+         "country": "Belguim"
       },
-      {
-         "id": "5",
-         "name": "France 5",
-         "address": {
-            "city": "Paris",
-            "state": "France",
-            "zipcode": "75003",
-            "country": "France"
-         }
+      "title": "Replay Journal 13",
+      "subtitle": {
+         "lang": "fr",
+         "text": "Francais"
       },
-      {
-         "id": "6",
-         "name": "TMC",
-         "address": {
-            "city": "Paris",
-            "state": "France",
-            "zipcode": "75006",
-            "country": "France"
-         }
+      "category": "News",
+      "date": "2021-03-02",
+      "time": {
+         "format": "24",
+         "text": "20:00"
       },
-      {
-         "id": "8",
-         "name": "TFX",
-         "address": {
-            "city": "Paris",
-            "state": "France",
-            "zipcode": "75007",
-            "country": "France"
-         }
+      "period": "1.0"
+   },
+   {
+      "id": "3",
+      "name": "ABC",
+      "url": "https://abc.com",
+      "address": {
+         "city": "New York",
+         "state": "New York",
+         "zipcode": "10023",
+         "country": "USA"
       },
-      {
-         "id": "8",
-         "name": "LCI",
-         "address": {
-            "city": "Paris",
-            "state": "France",
-            "zipcode": "75008",
-            "country": "Belguim"
-         }
-      },
-      {
-         "id": "9",
-         "name": "RTL TVI",
-         "address": {
-            "city": "Bruxelles",
-            "state": "Bruxelles",
-            "zipcode": "1030",
-            "country": "Belguim"
-         }
-      },
-      {
-         "id": "10",
-         "name": "LN24",
-         "address": {
-            "city": "Brussels",
-            "state": "Belguim",
-            "zipcode": "1140",
-            "country": "Belguim"
-         }
-      }
-   ],
-   "program": [
-      {
-         "title": "Journal 19 h",
-         "category": "News",
-         "date": "2021-03-02",
-         "time": {
-            "format": "24",
-            "text": "20:00"
+      "film": {
+         "language": "en",
+         "title": "Designated survivor",
+         "subtitle": {
+            "lang": "fr",
+            "text": "Francais"
          },
-         "period": "1.0"
+         "category": "Political Thriller",
+         "actors": [
+            "Kiefer Sutherland",
+            "Adan Canto",
+            "Italia Ricci",
+            "LaMonica Garrett",
+            "Kal Penn",
+            "Maggie Q",
+            "Natascha McElhone"
+         ]
       },
-      {
-         "title": "Replay Journal 13",
-         "category": "News",
-         "date": "2021-03-02",
-         "time": {
-            "format": "24",
-            "text": "20:00"
-         },
-         "period": "1.0"
+      "date": "2021-03-02",
+      "time": {
+         "format": "24",
+         "text": "20:00"
       },
-      {
-         "film": {
-            "@language": "en",
-            "title": "Designated survivor",
-            "category": "Political Thriller",
-            "actors": [
-               "Kiefer Sutherland",
-               "Adan Canto",
-               "Italia Ricci",
-               "LaMonica Garrett",
-               "Kal Penn",
-               "Maggie Q",
-               "Natascha McElhone"
-            ]
-         },
-         "date": "2021-03-02",
-         "time": {
-            "format": "24",
-            "text": "20:00"
-         },
-         "period": "1.0"
+      "period": "1.0"
+   },
+   {
+      "id": "4",
+      "name": "TF1",
+      "url": "https://www.tf1.fr",
+      "address": {
+         "city": "Paris",
+         "state": "France",
+         "zipcode": "71000",
+         "country": "France"
       },
-      {
-         "title": "Excès de vitesse",
-         "category": "Enquetes",
-         "date": "2021-03-02",
-         "time": {
-            "format": "24",
-            "text": "21:00"
-         },
-         "period": "1"
+      "title": "Excès de vitesse",
+      "subtitle": {
+         "lang": "fr",
+         "text": "Francais"
       },
-      {
-         "title": "Echappées belles",
-         "category": "documentaires",
-         "date": "2021-03-06",
-         "time": {
-            "format": "24",
-            "text": "20:55"
-         },
-         "period": "1.4"
+      "category": "Enquetes",
+      "date": "2021-03-02",
+      "time": {
+         "format": "24",
+         "text": "21:00"
       },
-      {
-         "title": "Quotidien",
-         "category": "Emission",
-         "date": "2021-03-01",
-         "time": {
-            "format": "24",
-            "text": "19:30"
-         },
-         "period": "2"
+      "period": "1"
+   },
+   {
+      "id": "5",
+      "name": "France 5",
+      "url": "https://www.france.tv/france-5/direct.html",
+      "address": {
+         "city": "Paris",
+         "state": "France",
+         "zipcode": "75003",
+         "country": "France"
       },
-      {
-         "title": "Affaire Dutroux",
-         "category": "Chroniques Criminelles",
-         "date": "2021-02-22",
-         "time": {
-            "format": "24",
-            "text": "16:10"
-         },
-         "period": "1"
+      "title": "Echappées belles",
+      "subtitle": {
+         "lang": "fr",
+         "text": "Francais"
       },
-      {
-         "title": "LCI GD Format Harry et Meghan",
-         "category": "Documentaire",
-         "date": "2021-02-",
-         "time": {
-            "format": "24",
-            "text": "20:00"
-         },
-         "period": "1.0"
+      "category": "documentaires",
+      "date": "2021-03-06",
+      "time": {
+         "format": "24",
+         "text": "20:55"
       },
-      {
-         "title": "Formidables",
-         "category": "Humour",
-         "date": "2021-03-02",
-         "time": {
-            "format": "24",
-            "text": "14:00"
-         },
-         "period": "1"
+      "period": "1.4"
+   },
+   {
+      "id": "6",
+      "name": "TMC",
+      "url": "https://www.tf1.fr/tmc",
+      "address": {
+         "city": "Paris",
+         "state": "France",
+         "zipcode": "75006",
+         "country": "France"
       },
-      {
-         "title": "LA MATINALE",
-         "category": "Politique",
-         "date": "2021-03-01",
-         "time": {
-            "format": "24",
-            "text": "18:00"
-         },
-         "period": "1.0"
-      }
-   ]
-}
+      "title": "Quotidien",
+      "subtitle": {
+         "lang": "fr",
+         "text": "Francais"
+      },
+      "category": "Emission",
+      "date": "2021-03-01",
+      "time": {
+         "format": "24",
+         "text": "19:30"
+      },
+      "period": "2"
+   },
+   {
+      "id": "8",
+      "name": "TFX",
+      "url": "https://www.tf1.fr/tfx",
+      "address": {
+         "city": "Paris",
+         "state": "France",
+         "zipcode": "75007",
+         "country": "France"
+      },
+      "title": "Affaire Dutroux",
+      "subtitle": {
+         "lang": "fr",
+         "text": "Francais"
+      },
+      "category": "Chroniques Criminelles",
+      "date": "2021-02-22",
+      "time": {
+         "format": "24",
+         "text": "16:10"
+      },
+      "period": "1"
+   },
+   {
+      "id": "8",
+      "name": "LCI",
+      "url": "https://www.lci.fr",
+      "address": {
+         "city": "Paris",
+         "state": "France",
+         "zipcode": "75008",
+         "country": "Belguim"
+      },
+      "title": "LCI GD Format Harry et Meghan",
+      "subtitle": {
+         "lang": "fr",
+         "text": "Francais"
+      },
+      "category": "Documentaire",
+      "date": "2021-02-",
+      "time": {
+         "format": "24",
+         "text": "20:00"
+      },
+      "period": "1.0"
+   },
+   {
+      "id": "9",
+      "name": "RTL TVI",
+      "url": "https://www.rtlplay.be/tvi",
+      "address": {
+         "city": "Bruxelles",
+         "state": "Bruxelles",
+         "zipcode": "1030",
+         "country": "Belguim"
+      },
+      "title": "Formidables",
+      "subtitle": {
+         "lang": "fr",
+         "text": "Francais"
+      },
+      "category": "Humour",
+      "date": "2021-03-02",
+      "time": {
+         "format": "24",
+         "text": "14:00"
+      },
+      "period": "1"
+   },
+   {
+      "id": "10",
+      "name": "LN24",
+      "url": "https://www.ln24.be",
+      "address": {
+         "city": "Brussels",
+         "state": "Belguim",
+         "zipcode": "1140",
+         "country": "Belguim"
+      },
+      "title": "LA MATINALE",
+      "subtitle": {
+         "lang": "fr",
+         "text": "Francais"
+      },
+      "category": "Politique",
+      "date": "2021-03-01",
+      "time": {
+         "format": "24",
+         "text": "18:00"
+      },
+      "period": "1.0"
+   }
+]
